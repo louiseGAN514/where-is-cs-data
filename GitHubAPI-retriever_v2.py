@@ -9,14 +9,10 @@ import gzip
 import copy
 from bs4 import BeautifulSoup
 
-# token_file = "../GitHub_token_11022023.txt"
-# github_links_csv = "../GitHub Repos/Github_datasets_repo_metadata.csv"
-# github_links_json_from_martin = '/media/sf_UnknownData/UnknownDataProject/From Others/Martin/cs.json.gz'
 
-token_file = "./GitHub_token_11022023.txt"
-github_links_csv = "./Github_datasets_repo_metadata.csv"
-github_links_json_from_martin = './From Others/Martin/cs.json.gz'
-github_links_csv_from_martin = './github_links_from_martin.csv'
+# token_file = "Please give your GitHub API token here and uncomment this line"
+github_links_json = './data/cs.json.gz'
+github_links_csv = './github_links.csv'
 
 ### get github links from csv file 
 with open(token_file, 'r') as f:
@@ -33,8 +29,6 @@ def extract_github_links(gzip_file):
         for metadata_github_link in github_links_list:
             github_urls.append(metadata_github_link['url'])
     return github_urls
-
-# github_links_from_martin = extract_github_links(github_links_from_martin)
 
 
 ### method to get owner and repo info for a list of github repo urls 
@@ -226,29 +220,20 @@ def retrieve_repo_readme(owners, repos, save_to=None):
             json.dump(readmes, f, indent=4, ensure_ascii=False)
     return readmes, irre
 
-# with open('irre.json', 'w') as f:
-#     json.dump(irre, f, indent=4, ensure_ascii=False)
-
-# with open('irre1.json', 'w') as f:
-#     json.dump(irre1, f, indent=4, ensure_ascii=False)
 
 
 def run():
-    github_links_from_martin = extract_github_links(github_links_json_from_martin)
-    print(len(github_links_from_martin))
-    # print(len(github_links))
-    owners, repos = extract_owner_repo_from_github_links(github_links_from_martin)
+    github_links = extract_github_links(github_links_json)
+    print(len(github_links))
+    owners, repos = extract_owner_repo_from_github_links(github_links)
     print(len(owners))
     owners, repos = remove_duplicates(owners, repos)
     print(len(owners))
-    save_to_metadata = 'repos_from_martin_metadata_enhanced.json'
-    save_to_content_metadata = 'repos_content_from_martin_metadata_enhanced.json'
-    save_to_readme = 'readme_from_martin_enhanced.json'
+    
+    save_to_metadata = 'metadata.json'
+    save_to_content_metadata = 'content_metadata.json'
+    save_to_readme = 'readme.json'
     _, irre = retrieve_repo_content_metadata(owners, repos, save_to=save_to_content_metadata)
-    # pprint(irre)
     # _, irre = retrieve_repo_readme(owners, repos, save_to=save_to_readme)
-    with open('irre_content_from_martin_enhanced.json', 'w') as f:
-        json.dump(irre,f,indent=4,ensure_ascii=False)
-
 
 run()
