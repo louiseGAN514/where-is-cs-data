@@ -12,12 +12,7 @@ from bs4 import BeautifulSoup
 
 # token_file = "Please give your GitHub API token here and uncomment this line"
 github_links_json = './data/cs.json.gz'
-github_links_csv = './github_links.csv'
 
-### get github links from csv file 
-with open(token_file, 'r') as f:
-    ACCESS_TOKEN = f.read()
-github_links = pd.read_csv(github_links_csv)['In-Paper Links'].to_numpy()
 
 ### get github links from json file
 def extract_github_links(gzip_file):
@@ -230,9 +225,9 @@ def run():
     owners, repos = remove_duplicates(owners, repos)
     print(len(owners))
     
-    save_to_metadata = 'metadata.json'
-    save_to_content_metadata = 'content_metadata.json'
-    save_to_readme = 'readme.json'
+    save_to_metadata = './data/metadata.json'
+    save_to_content_metadata = './data/content_metadata.json'
+    save_to_readme = './data/readme.json'
     _, irre = retrieve_repo_content_metadata(owners, repos, save_to=save_to_content_metadata)
     # _, irre = retrieve_repo_readme(owners, repos, save_to=save_to_readme)
 
