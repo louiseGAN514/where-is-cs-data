@@ -1,0 +1,16 @@
+,List of papers on approaches to extract text/links from a pdf document,,,
+,,,,
+Nr.,Title,Link to paper,Tools,SoTA Priority
+1,A Benchmark and Evaluation for Text Extraction from PDF,https://ad-publications.cs.uni-freiburg.de/benchmark.pdf,pdfMiner,1
+2,DocOIE: A Document-level Context-Aware Dataset for OpenIE,https://arxiv.org/pdf/2105.04271.pdf,PyPDF,
+3,A Privacy-Preserving Approach to Extraction of Personal Information through Automatic Annotation and Federated Learning,https://arxiv.org/pdf/2105.09198.pdf,pdfrw,
+4,Text-to-Table: A New Way of Information Extraction,https://arxiv.org/pdf/2109.02707v2.pdf,pyMuPDF,
+5,Unsupervised Text Extraction from G-Maps,https://paperswithcode.com/paper/unsupervised-text-extraction-from-g-maps,pikepdf,
+6,Inscriptis -- A Python-based HTML to text conversion library optimized for knowledge extraction from the Web,https://paperswithcode.com/paper/inscriptis-a-python-based-html-to-text,BeautifulSoup(NLTK),1
+7,LexNLP: Natural language processing and information extraction for legal and regulatory texts,https://paperswithcode.com/paper/lexnlp-natural-language-processing-and,pdfplumber,1
+,,,Grobib,
+,,,Slate,
+8,"Automatic link extraction: The good, the bad and the ugly in software ecosystem mining",https://arxiv.org/pdf/1711.06908.pdf,,
+9,Development update: reference extraction & linking,https://blog.arxiv.org/2017/09/27/development-update-reference-extraction-linking9/,,
+10,WebFormer: The Web-page Transformer for Structure Information Extraction,https://arxiv.org/pdf/2202.00217.pdf,,
+11,S2ORC: The Semantic Scholar Open Research Corpus,https://arxiv.org/pdf/1911.02782.pdf,,

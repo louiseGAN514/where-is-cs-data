@@ -1,0 +1,26 @@
+Type,explanation ,,Dataset,"(obsolete, use type instead)"
+Code,link to the repository (on github) of the model/algorithm implementation,,Y,Links directly to a dataset
+Dataset,link to access or download the dataset used in that paper,,N,doesn't
+Blog,"non-academic article or blog on a topic relevant to the paper, e.g. wikipedia",,,
+Paper,link to view or download the paper,,Project,"(obsolete, use type instead)"
+Project ,"link to a portal/framework/conference/publications for the NLP task e.g., allennlp, usually not on github, but could be",,Y,"Links directly to a project website (could also be framework, or similar resource); no github project, usually"
+Author,link that contains information on one or more authors,,N,doesn't
+Organisation,"In contrast to project, this link points towards an entire body of works, e.g. the wikipedia, plos, etc. or a repository, e.g. github vs. a specific github link",,,
+,,,,
+,,,,
+Reproduction package,"link to the core code, which is not supplementary/reference code but actual implemented code of the project; it is a yes, iff the code was written for the paper; very likely a yes, if it was written by the authors of the paper; probably a no, iff it is general library; but just because it is meant to be re-usable, does not mean it is not a code supplement",,,
+Paper link,link to the paper's pdf document,,,
+Title,Paper's title,,,
+In-paper Links,the link/url,,,
+Referenced Object,description of what exactly the link leads to,,,
+Place in Paper,name of the section it occurs in,,,
+,,,,
+Status,opens an actual website when clicked on (in 2022)/no error code,,,
+#,"No. of occurences of DOI(arxiv pre-print) paper publication link, majorly at references",,,
+,,,,
+,,,,
+In-depth,"To specify code-type links (not used, TODO?)",,,
+Model,The model/algorithm used to perform the task,,,
+Metric,The metric used to evaluate the models performance,,,
+Task,"What task/category of work being done (Information Extraction/Tokenization/Sentiment analysis etc.,)",,,
+Dataset,Which dataset is used to perform the task,,,

@@ -1,0 +1,46 @@
+Dataset source name,Occurences count,Percentage %,,FROM Col K - O we have other graphs,,,,,,,,,,
+GitHub,126,68.00%,,,,,,,,Domain,paper count,max. link count,dataset link count,code link count
+HuggingFace,4,2.00%,,,,,,,,NLP,30,20,33,18
+Google,4,2.00%,,,,,,,,DB sys,20,17,12,6
+UCI Data,3,2.00%,,,,,,,,HMI,20,23,9,6
+ABIDE,3,2.00%,,,,,,,,V&G,20,12,32,15
+NIH NLM,3,2.00%,,,,,,,,NA,20,26,13,10
+Kaggle,2,1.00%,,,,,,,,SE,20,23,16,15
+StackExchange,2,1.00%,,,,,,,,ToC,20,16,4,6
+Zenodo,2,1.00%,,,,,,,,CS&I,20,15,15,16
+Own project web,2,1.00%,,,,,,,,BI,20,18,15,15
+Pypi,1,1.00%,,,,,,,,PL,20,21,15,6
+cmu,1,1.00%,,,,,,,,Total,210,191,164,113
+Berkle1,1,1.00%,,,,,,,,,,,,
+MIMIC,1,1.00%,,,,,,,,,,,,
+DrugCombDB,1,1.00%,,,,,,,,,,,,
+c4science,1,1.00%,,,,,,,,,,,,
+Physionet,1,1.00%,,,,,,,,,,,,
+GoDaddy,1,1.00%,,,,,,,,,,,,
+NCI GDC,1,1.00%,,,,,,,,,,,,
+Galaxy Europe,1,1.00%,,,,,,,,,,,,
+PATS,1,1.00%,,,,,,,,,,,,
+Cellml,1,1.00%,,,,,,,,,,,,
+CORE,1,1.00%,,,,,,,,,,,,
+Clang JSON,1,1.00%,,,,,,,,,,,,
+RDocumentation,1,1.00%,,,,,,,,,,,,
+BitBucket,1,1.00%,,,,,,,,,,,,
+Pfam,1,1.00%,,,,,,,,,,,,
+MaterialsProject,1,1.00%,,,,,,,,,,,,
+Weizmann,1,1.00%,,,,,,,,,,,,
+RAGE,1,1.00%,,,,,,,,,,,,
+ROCA,1,1.00%,,,,,,,,,,,,
+Sayan Ranu,1,1.00%,,,,,,,,,,,,
+Snap,1,1.00%,,,,,,,,,,,,
+Edinburgh DataShare,1,1.00%,,,,,,,,,,,,
+CLS supplemetary,1,1.00%,,,,,,,,,,,,
+NCI GDC,1,,,,,,,,,,,,,
+MNIST DataBase,1,1.00%,,,,,,,,,,,,
+SOPHIE archive,1,1.00%,,,,,,,,,,,,
+ELODIE archive,1,1.00%,,,,,,,,,,,,
+EEM_dwarf_UBVIJHK_colors_Teff,1,1.00%,,,,,,,,,,,,
+POLLUX DB,1,1.00%,,,,,,,,,,,,
+ActivityNet DB,1,1.00%,,,,,,,,,,,,
+RAF DB,1,1.00%,,,,,,,,,,,,
+Harvard Dataverse,1,1.00%,,,,,,,,,,,,
+total,185,100.00%,,,,,,,,,,,,

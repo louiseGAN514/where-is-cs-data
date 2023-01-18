@@ -1,0 +1,44 @@
+First three from all the other sheets,,,,,file type,license,data,read.me
+"Research question: This is not an annotation, this is a fact-finding mission to get a feeling of how much work it would be to extract the data, and possibly additional metadata, like licences, documentation, citation string, etc.",,,,,,,,
+Sheet,Paper Title,Paper link,Links,Description ,,,,
+NLP and information extraction,Leveraging Pre-Trained Language Models to Streamline Natural Language Interaction for Self-Tracking,https://arxiv.org/pdf/2205.15503.pdf,https://pypi.org/project/sentence-transformers/,python library,,,no,what kind of algo needed to extract and figure out about the data
+,,,https://openai.com/api/,open ai website,,,no,is there a data? where we can find it? license? docs? etc..
+,Hero-Gang Neural Model For Named Entity Recognition,https://arxiv.org/pdf/2205.07177.pdf,https://github.com/jinpeng01/HGN,"train/dev/test csv files inside two folders in data folder. The read me file contains a sction titled ""Data"" which mentions that there is an example data inside data/W16_bio folder. no licence ",csv,no,yes,yes
+,,,https://github.com/huggingface/transformers,Hugging face transformer library. it has Licence,,yes,no,
+,,,https://github.com/google-research/bert,"BERT repo, with Licence",,yes,?,yes
+,,,https://github.com/zihangdai/xlnet,"xlnet, there are mentions of different datasets for different tasks in the read me file. But no data are stored in the repo. the read me file provide links or scripts to get the dataset. It has licence",,,,yes
+,,,https://github.com/dmis-lab/biobert,"There is a section called ""Datasets"" in the read me file. This section lists three datasets and indicate that all of them can be downloaded by running ""download.sh"" file. After that they provide links to other two datasets with copyright issues",,,,
+,AKI-BERT: a Pre-trained Clinical Language Model for Early Prediction of Acute Kidney Injury,https://arxiv.org/pdf/2205.03695.pdf,https://github.com/mocherson/AKI_bert,"No licence, no mention of data in ""read me"" file. There is folder called ""data"" which contains csv files named train,test,etc..",,,,
+,,,https://github.com/huggingface/transformers/blob/v1.0.0/examples/lm_finetuning/simple_lm_finetuning.py,this link point to a particular code of the hugging face transformer library,,,,
+,,,,,,,,
+,,,https://mimic.physionet.org/,link to websiet that contains free medical data for research docs and also  link to github repo. ,,,,
+,,,https://openreview.net/forum?id=rJXMpikCZ,link to some paper,,,,
+Database Systems,A Semi-Supervised Algorithm for Improving the Consistency of Crowdsourced Datasets: The COVID-19 Case Study on Respiratory Disorder Classification,https://arxiv.org/pdf/2209.04360.pdf,https://c4science.ch/diffusion/10770/,"link to c4science repo which contains ""Data access"" section in the description file. It also has a folder called ""sample_recordings"" which contains two wave files.  ",,,,
+,,,https://scikit-learn.org/stable/,link to  website about scikit,,,,
+,,,https://scikit-learn/stable/modules/generated/sklearn.model_selection.GroupShuffleSplit.html,another link to scikit-learn,,,,
+,Pathology Synthesis of 3D Consistent Cardiac MR Images Using 2D VAEs and GANs,https://arxiv.org/ftp/arxiv/papers/2209/2209.04223.pdf,https://github.com/sinaamirrajab/CardiacPathologySynthesis,"no licence, some pictures are viewed in the read me file. There is a folder called ""data"" but it contains python files that seems to deal with data not the actual data.",,,,
+,SOUND EVENT LOCALIZATION AND DETECTION FOR REAL SPATIAL SOUND SCENES: EVENT-INDEPENDENT NETWORK AND DATA AUGMENTATION CHAINS,https://arxiv.org/pdf/2209.01802.pdf,https://github.com/Jinbo-Hu/DCASE2022-TASK3,"no licence, In the read me file ""Description"" section contains links from which the data can be downloaded. There is also a folder ""images"" which contains two pictures.",,,,
+,,,https://doi.org/10.5281/zenodo.6408611,database published at Zenodo,,,,
+,,,https://doi.org/10.5281/zenodo.6406873,audio dataset at zenodo,,,,
+,,,https://dcase.community/challenge2022,workshop link which include challenge,,,,
+,,,https://github.com/danielkrause/DCASE2022-data-generator,"licence, the read me talks about data generator and describe two scripts as tools to generate samples",,,,
+HMI,"The Utility of Explainable AI in Ad Hoc
+Human-Machine Teaming",https://arxiv.org/pdf/2209.03943.pdf,https://doi.org/10.1007/978-1-4419-1005-9_1226,paper at springer,,,,
+,,,https://proceedings.neurips.cc/paper/2003/file/,page not found,,,,
+,,,https://proceedings.neurips.cc/paper/2018/,page not found,,,,
+,,,https://doi. org/10.1002/9781118909997.ch16,not working,,,,
+,,,https://github.com/CORE-Robotics-Lab/Utility-of-Explainable-AI-NeurIPS2021,"licence, read me does not mention data, ""minecraft_images"" folder contains three subfolders which  contains images and subforders which also contains images",,,,
+,,,https://doi.org/10.1007/978-1-4419-1005-9_1226,"sprinker line as above, see first doi in this paper",,,,
+,Semantic Interactive Learning for Text Classification: A Constructive Approach for Contextual Interactions,https://arxiv.org/pdf/2209.02984.pdf,https://github.com/sb1990gtr/Semantic-Interactive-ML,"no licence, no read me file, no folder at all, only a list of python scripts",,,,
+,LaTTe: Language Trajectory TransformEr,https://arxiv.org/pdf/2208.02918.pdf,https://github.com/arthurfenderbucker/NL_trajectory_reshaper,"no licence, in read me file there is an instrction under ""setup"" section to download the dataset. there is docs folder which contains .yml, md and texl files in addition, it has a folder named ""media"" that contains images",,,,
+,,,http://dx.doi.org/10.24963/ijcai.2018/3,Link to IJCAI conference,,,,
+,,,https://doi.org/10.1177/0278364915581193,link to SAGE jounal on Robotics,,,,
+,,,http://dx.doi.org/10.1109/CVPR.2018.00387,paper on IEEE ,,,,
+,,,http://dx.doi.org/10.1109/CVPR42600.2020.01315,another paper on IEEE,,,,
+,,,http://dx.doi.org/10.1109/CVPR.2019.00689,paper on IEEE ,,,,
+Vision and Graphics,User-Controllable Latent Transformer for StyleGAN Image Layout Editing,https://arxiv.org/pdf/2208.12408.pdf,https://github.com/justinpinkney/awesome-pretrained-stylegan2,"no licence, ""read me"" contains listings of many pics from different image datasets LSUN-CAR, LSUN-CAT, LSUN-CHURCH ,FFHQ, LSUN-Horse, Image net, WikiArt, Danboru, Unkown, Frea Buckler artwork, Maps, Internet scraped cakes,  CIFAR 10, CIFAR 100, 100 images of Barack Obama, 100 images of Grumpy Cats, 100 images of pandas, ~55k SFW images from e621.net, ~104k SFW images from Derpibooru, MetFaces, 5000 faces aligned and detected from ukiyoe images, Biologia Centrali-Americana :zoology, botany and archaeology, Describable Textures Dataset (DTD), 14,305 abstract paintings, Oxford flowers 102 prepped with u^2net, 5k architectural elements from Barcelona,  Floor Plans (Instagram scrapped), Previous models made from the drawings from my blog,  There is also ""content"" folder which contains subfolders that contain images and mp4 files. The names of he subfolders matches in partial the names of the listed datasets but they only contains few images.",,,,
+,,,https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer,"licence, ""readme"" file does not mention dataset except that the model is customizable and one can use his own data to test it. There is no folder for the data.",,,,
+,Generative Deformable Radiance Fields for Disentangled Image Synthesis of Topology-Varying Objects,https://arxiv.org/pdf/2209.04183.pdf,https://ziyuwang98.github.io/GDRF/,"link to project website hosted in github, the website shows some images on its page. There is also a link to github repo which contains ""images"" folder. This folder contains only one image",,,,
+,Neural Feature Fusion Fields: 3D Distillation of Self-Supervised 2D Image Representations,https://arxiv.org/pdf/2209.03494.pdf,https://www.robots.ox.ac.uk/~vadim/n3f/,"link to website that contains abstract of page with some links. one of the links ""Code"" refere to github repo. That repo conains licence, read me and and configs folder. The read me has ""Dataset and Pretrained Models"" section which says that the model and dataset can be downloaded from google drive. The ""configs"" folder contains txt files which sames to describe dimenions of objects like chair, room, ship etc..",,,,
+,,,https://github.com/yenchenlin/nerf-pytorch/,"licence, ""readme"" file contains two sections ""How To Run?
+"" to download two samples for ""Quick Start"" and ""More datasets"" to download the data from google drive. In addition to ""configs"" folder there is ""imgs"" folder which contains one image. THIS LINK IS THE SAME AS THE REPO ABOVE WITH MORE DETAILED READ ME AND ""imgs"" folder.  ",,,,
