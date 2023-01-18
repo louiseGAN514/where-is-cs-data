@@ -9,10 +9,9 @@ import gzip
 import copy
 from bs4 import BeautifulSoup
 
-
-# token_file = "Please give your GitHub API token here and uncomment this line"
+token_file = "Please give your GitHub API"
 github_links_json = './data/cs.json.gz'
-
+ACCESS_TOKEN = 'read from token file'
 
 ### get github links from json file
 def extract_github_links(gzip_file):
@@ -231,4 +230,4 @@ def run():
     _, irre = retrieve_repo_content_metadata(owners, repos, save_to=save_to_content_metadata)
     # _, irre = retrieve_repo_readme(owners, repos, save_to=save_to_readme)
 
-run()
+# run()
