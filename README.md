@@ -1,4 +1,4 @@
-# where-is-cs-data-msr-2023
+# where-is-cs-data
 
 This repo contains data and supporting code for the paper "Finding Computer Science Research Data - Exploratory Studies on Zenodo, arXiv and GitHub". 
 
